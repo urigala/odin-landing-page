@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.info-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.heading {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero-big-text {
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+}
+
+.hero-small-text {
+    color: #e5e7eb;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    height: 24px;
+    width: 60px;
+    border-radius: 10%;
+}
+
+.hero-image img {
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.text-n-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.inspo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+
+.qoute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.action-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    height: 24px;
+    width: 60px;
+    border-radius: 10%;
+    border: 2px;
+    border-color: white;
+    padding: 5px;
+}
+
+.action-text {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #1F2937;
+    padding: 30px;
+
+}
+
+.footer-text {
+    color: #e5e7eb;;
+}
